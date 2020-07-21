@@ -20,6 +20,14 @@ class TestAddGroup(unittest.TestCase):
        # wd.find_element_by_name("user").clear()
        # wd.find_element_by_name("user").send_keys("admin")
 
+    def test_add_empty_group(self):
+        wd = self.wd
+        self.open_home_page(wd)
+        self.login(wd, password="secret", username="admin")
+        self.open_group_page(wd)
+        self.Create_group(wd, name="", header="", footer="")
+        self.Return_to_group_page(wd)
+        self.logout(wd)
     def logout(self, wd):
         wd.find_element_by_link_text("Logout").click()
 
