@@ -10,11 +10,27 @@ class CreateContact(unittest.TestCase):
 
     def test_create_contact(self):
         wd = self.wd
-        wd.get("http://localhost/addressbook/")
-        wd.find_element_by_name("user").click()
-        wd.find_element_by_name("pass").click()
-        wd.find_element_by_xpath("//input[@value='Login']").click()
+        self.open_home_page(wd)
+        self.login(wd)
+        self.create_contact(wd)
+        self.return_to_home_page(wd)
+        self.logout(wd)
+        #непонятно что
+        #wd.find_element_by_name("user").clear()
+        #wd.find_element_by_name("user").send_keys("admin")
+
+    def logout(self, wd):
+        # logout
+        wd.find_element_by_link_text("Logout").click()
+
+    def return_to_home_page(self, wd):
+        # return to home page
+        wd.find_element_by_link_text("home").click()
+
+    def create_contact(self, wd):
+        # init new contact
         wd.find_element_by_link_text("add new").click()
+        # fill contact form
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").clear()
         wd.find_element_by_name("firstname").send_keys("hhhhh")
@@ -87,12 +103,19 @@ class CreateContact(unittest.TestCase):
         wd.find_element_by_name("notes").click()
         wd.find_element_by_name("notes").clear()
         wd.find_element_by_name("notes").send_keys("ghghg")
+        # submit contact creation
         wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
-        wd.find_element_by_link_text("home").click()
-        wd.find_element_by_link_text("Logout").click()
-        wd.find_element_by_name("user").clear()
-        wd.find_element_by_name("user").send_keys("admin")
-    
+
+    def login(self, wd):
+        # login
+        wd.find_element_by_name("user").click()
+        wd.find_element_by_name("pass").click()
+        wd.find_element_by_xpath("//input[@value='Login']").click()
+
+    def open_home_page(self, wd):
+        # open home page
+        wd.get("http://localhost/addressbook/")
+
     def tearDown(self):
         self.wd.quit()
 
