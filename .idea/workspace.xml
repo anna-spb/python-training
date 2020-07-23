@@ -19,13 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="опять создан новый файл взамен забарахлившего">
-      <change afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
+    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="добавлен файд group">
+      <change afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application1.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_group1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_add_group2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_create_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_create_contact.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <recent name="C:\Users\Анна\PycharmProjects\python-training\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_add_group2.py">
+  <component name="RunManager" selected="Python tests.pytest in test_create_contact.py">
     <configuration name="pytest in C:/Users/Анна/PycharmProjects/python-training/test_create_contact1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,8 +151,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_add_group2.py" />
         <item itemvalue="Python tests.pytest in test_create_contact.py" />
+        <item itemvalue="Python tests.pytest in test_add_group2.py" />
         <item itemvalue="Python tests.test_add_group.py" />
         <item itemvalue="Python tests.pytest in C:/Users/Анна/PycharmProjects/python-training/test_create_contact1.py" />
         <item itemvalue="Python tests.pytest in test_add_group1.py" />
@@ -344,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595529585592</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="добавлен файд group">
+      <created>1595530235968</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1595530235968</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,7 +391,8 @@
     <MESSAGE value="созданы пакеты для разных зон ответст-ти" />
     <MESSAGE value="созданы пакеты для разных зон ответст-ти для контакта" />
     <MESSAGE value="опять создан новый файл взамен забарахлившего" />
-    <option name="LAST_COMMIT_MESSAGE" value="опять создан новый файл взамен забарахлившего" />
+    <MESSAGE value="добавлен файд group" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен файд group" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" key="#Unittests_in_test_add_group.py" timestamp="1595513425580">
@@ -410,38 +419,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="110" y="120" width="1146" height="488" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1595084933112" />
-    <state width="1345" height="152" key="GridCell.Tab.0.bottom" timestamp="1595530135300">
+    <state width="1345" height="54" key="GridCell.Tab.0.bottom" timestamp="1595530248624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595530135300" />
-    <state width="1345" height="152" key="GridCell.Tab.0.center" timestamp="1595530135300">
+    <state width="1345" height="54" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595530248624" />
+    <state width="1345" height="54" key="GridCell.Tab.0.center" timestamp="1595530248624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595530135300" />
-    <state width="1345" height="152" key="GridCell.Tab.0.left" timestamp="1595530135300">
+    <state width="1345" height="54" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595530248624" />
+    <state width="1345" height="54" key="GridCell.Tab.0.left" timestamp="1595530248624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595530135300" />
-    <state width="1345" height="152" key="GridCell.Tab.0.right" timestamp="1595530135300">
+    <state width="1345" height="54" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595530248624" />
+    <state width="1345" height="54" key="GridCell.Tab.0.right" timestamp="1595530248624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595530135300" />
-    <state width="1345" height="54" key="GridCell.Tab.1.bottom" timestamp="1595525396488">
+    <state width="1345" height="54" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595530248624" />
+    <state width="1345" height="54" key="GridCell.Tab.1.bottom" timestamp="1595530248625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="54" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595525396488" />
-    <state width="1345" height="54" key="GridCell.Tab.1.center" timestamp="1595525396488">
+    <state width="1345" height="54" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595530248625" />
+    <state width="1345" height="54" key="GridCell.Tab.1.center" timestamp="1595530248625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="54" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595525396488" />
-    <state width="1345" height="54" key="GridCell.Tab.1.left" timestamp="1595525396488">
+    <state width="1345" height="54" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595530248625" />
+    <state width="1345" height="54" key="GridCell.Tab.1.left" timestamp="1595530248625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="54" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595525396488" />
-    <state width="1345" height="54" key="GridCell.Tab.1.right" timestamp="1595525396488">
+    <state width="1345" height="54" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595530248625" />
+    <state width="1345" height="54" key="GridCell.Tab.1.right" timestamp="1595530248625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="54" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595525396488" />
+    <state width="1345" height="54" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595530248625" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1595515500565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

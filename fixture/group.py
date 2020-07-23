@@ -4,12 +4,11 @@ class GroupHelper:
     def __init__(self, app):
         self.app = app
 
-
     def Return_to_group_page(self):
         wd = self.app.wd
         wd.find_element_by_link_text("groups").click()
 
-    def Create_group(self, group):
+    def create(self, group):
         wd = self.app.wd
         self.open_group_page()
         # init group creation
