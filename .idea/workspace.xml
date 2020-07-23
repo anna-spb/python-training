@@ -19,13 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="изменен текст лицензии">
+    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="файл с ошибкой">
+      <change afterPath="$PROJECT_DIR$/Group1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_add_group1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-training.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Python Unit Test" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +50,68 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python tests.test_add_group.py">
+    <configuration name="pytest in Test_Create_Contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python-training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_Create_Contact.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_add_group1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python-training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_group1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_add_group.py" type="tests" factoryName="Unittests" singleton="true" temporary="true">
+      <module name="python-training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.test_add_group.py" />
+      <item itemvalue="Python tests.pytest in Test_Create_Contact.py" />
+      <item itemvalue="Python tests.pytest in test_add_group1.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.test_add_group.py" />
+        <item itemvalue="Python tests.pytest in test_add_group1.py" />
+        <item itemvalue="Python tests.pytest in Test_Create_Contact.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -58,7 +131,119 @@
       <option name="project" value="LOCAL" />
       <updated>1594497321603</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="подготовлен проект для тестирования">
+      <created>1595085819428</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595085819428</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test Firefox + Interpreter">
+      <created>1595100605614</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595100605614</updated>
+    </task>
+    <task id="LOCAL-00004" summary="созданы вспомогательные методы">
+      <created>1595350159150</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595350159150</updated>
+    </task>
+    <task id="LOCAL-00005" summary="переданы параметры в методы">
+      <created>1595351071035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595351071035</updated>
+    </task>
+    <task id="LOCAL-00006" summary="создан метод с пустыми параметрами">
+      <created>1595351264412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595351264412</updated>
+    </task>
+    <task id="LOCAL-00007" summary="выделены вспомогательные методы и классы">
+      <created>1595352284587</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595352284587</updated>
+    </task>
+    <task id="LOCAL-00008" summary="создан новый файл Test_Create_Contact">
+      <created>1595354104483</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595354104483</updated>
+    </task>
+    <task id="LOCAL-00009" summary="созданы допметоды в CREATE CONTACT">
+      <created>1595355111539</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595355111539</updated>
+    </task>
+    <task id="LOCAL-00010" summary="переданы параметры в методы CREATE CONTACT">
+      <created>1595356574974</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595356574974</updated>
+    </task>
+    <task id="LOCAL-00011" summary="создан шаблон с параметрами CREATE CONTACT">
+      <created>1595360905945</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1595360905945</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Создана фикстура">
+      <created>1595510756822</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1595510756822</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Переведены тесты на pytest и реализована фикстура">
+      <created>1595511502973</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595511502973</updated>
+    </task>
+    <task id="LOCAL-00014" summary="исправлена ошибка">
+      <created>1595512067116</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595512067116</updated>
+    </task>
+    <task id="LOCAL-00015" summary="создан новый файл и исправлены ошибки предыдущего файла">
+      <created>1595517434565</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1595517434565</updated>
+    </task>
+    <task id="LOCAL-00016" summary="файл с ошибкой">
+      <created>1595519000293</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595519000293</updated>
+    </task>
+    <task id="LOCAL-00017" summary="файл с ошибкой">
+      <created>1595519846001</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595519846001</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,20 +260,91 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="изменен текст лицензии" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменен текст лицензии" />
+    <MESSAGE value="подготовлен проект для тестирования" />
+    <MESSAGE value="test Firefox + Interpreter" />
+    <MESSAGE value="созданы вспомогательные методы" />
+    <MESSAGE value="переданы параметры в методы" />
+    <MESSAGE value="создан метод с пустыми параметрами" />
+    <MESSAGE value="выделены вспомогательные методы и классы" />
+    <MESSAGE value="создан новый файл Test_Create_Contact" />
+    <MESSAGE value="созданы допметоды в CREATE CONTACT" />
+    <MESSAGE value="переданы параметры в методы CREATE CONTACT" />
+    <MESSAGE value="создан шаблон с параметрами CREATE CONTACT" />
+    <MESSAGE value="Создана фикстура" />
+    <MESSAGE value="Переведены тесты на pytest и реализована фикстура" />
+    <MESSAGE value="исправлена ошибка" />
+    <MESSAGE value="создан новый файл и исправлены ошибки предыдущего файла" />
+    <MESSAGE value="файл с ошибкой" />
+    <option name="LAST_COMMIT_MESSAGE" value="файл с ошибкой" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594497114758">
+    <state x="392" y="0" key="#Unittests_in_test_add_group.py" timestamp="1595513425580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1594497114758" />
+    <state x="392" y="0" key="#Unittests_in_test_add_group.py/0.0.1366.728@0.0.1366.728" timestamp="1595513425580" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595516692276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1595516692276" />
+    <state x="484" y="270" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog" timestamp="1595349836899">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="270" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog/0.0.1366.728@0.0.1366.728" timestamp="1595349836899" />
+    <state x="392" y="0" key="#pytest_test_add_group.py" timestamp="1595516164311">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="0" key="#pytest_test_add_group.py/0.0.1366.728@0.0.1366.728" timestamp="1595516164311" />
+    <state x="345" y="0" key="#test_add_group.py" timestamp="1595518476919">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="345" y="0" key="#test_add_group.py/0.0.1366.728@0.0.1366.728" timestamp="1595518476919" />
     <state x="110" y="120" width="1146" height="488" key="DiffContextDialog" timestamp="1595084933112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="110" y="120" width="1146" height="488" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1595084933112" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1594497400531">
+    <state width="1308" height="179" key="GridCell.Tab.0.bottom" timestamp="1595519998359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594497400531" />
+    <state width="1308" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595519998359" />
+    <state width="1308" height="179" key="GridCell.Tab.0.center" timestamp="1595519998359">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1308" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595519998359" />
+    <state width="1308" height="179" key="GridCell.Tab.0.left" timestamp="1595519998359">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1308" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595519998359" />
+    <state width="1308" height="179" key="GridCell.Tab.0.right" timestamp="1595519998359">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1308" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595519998359" />
+    <state width="1308" height="203" key="GridCell.Tab.1.bottom" timestamp="1595518576196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1308" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595518576196" />
+    <state width="1308" height="203" key="GridCell.Tab.1.center" timestamp="1595518576196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1308" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595518576196" />
+    <state width="1308" height="203" key="GridCell.Tab.1.left" timestamp="1595518576196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1308" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595518576196" />
+    <state width="1308" height="203" key="GridCell.Tab.1.right" timestamp="1595518576196">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1308" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595518576196" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1595515500565">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595515500565" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595520012358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595520012358" />
+    <state x="229" y="158" key="refactoring.ChangeSignatureDialog" timestamp="1595356218707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="229" y="158" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1595356218707" />
   </component>
 </project>
