@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# wrong  file
 import pytest
 from Group import Group
 from application import Application

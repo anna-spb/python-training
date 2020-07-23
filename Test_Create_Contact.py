@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import pytest
 from Group1 import Group
-from Application1 import Application
+from application1 import Application
 
 
 @pytest.fixture
 def app(request):
-    fixture = Application
+    fixture = Application()
     request.addfinalizer(fixture.destroy)
     return fixture
 
