@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="файл с ошибкой">
-      <change afterPath="$PROJECT_DIR$/Group1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_add_group1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-training.iml" afterDir="false" />
+    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="на всякий случай все">
+      <change afterPath="$PROJECT_DIR$/Application1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Create_Contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Create_Contact.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -243,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595519846001</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="на всякий случай все">
+      <created>1595520102218</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1595520102218</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,7 +281,8 @@
     <MESSAGE value="исправлена ошибка" />
     <MESSAGE value="создан новый файл и исправлены ошибки предыдущего файла" />
     <MESSAGE value="файл с ошибкой" />
-    <option name="LAST_COMMIT_MESSAGE" value="файл с ошибкой" />
+    <MESSAGE value="на всякий случай все" />
+    <option name="LAST_COMMIT_MESSAGE" value="на всякий случай все" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" key="#Unittests_in_test_add_group.py" timestamp="1595513425580">
@@ -302,22 +309,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="110" y="120" width="1146" height="488" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1595084933112" />
-    <state width="1308" height="179" key="GridCell.Tab.0.bottom" timestamp="1595519998359">
+    <state width="654" height="179" key="GridCell.Tab.0.bottom" timestamp="1595520265127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595519998359" />
-    <state width="1308" height="179" key="GridCell.Tab.0.center" timestamp="1595519998359">
+    <state width="654" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595520265127" />
+    <state width="654" height="179" key="GridCell.Tab.0.center" timestamp="1595520265127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595519998359" />
-    <state width="1308" height="179" key="GridCell.Tab.0.left" timestamp="1595519998359">
+    <state width="654" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595520265127" />
+    <state width="654" height="179" key="GridCell.Tab.0.left" timestamp="1595520265127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595519998359" />
-    <state width="1308" height="179" key="GridCell.Tab.0.right" timestamp="1595519998359">
+    <state width="654" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595520265127" />
+    <state width="654" height="179" key="GridCell.Tab.0.right" timestamp="1595520265127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595519998359" />
+    <state width="654" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595520265127" />
     <state width="1308" height="203" key="GridCell.Tab.1.bottom" timestamp="1595518576196">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -338,10 +345,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595515500565" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595520012358">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595520114341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595520012358" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595520114341" />
     <state x="229" y="158" key="refactoring.ChangeSignatureDialog" timestamp="1595356218707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
