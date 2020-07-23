@@ -19,14 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="добавлен файд group">
-      <change afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
+    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="созданы помощники для обоих тестов">
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/application1.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_group1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_add_group2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_create_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_create_contact.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +53,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Анна\PycharmProjects\python-training" />
       <recent name="C:\Users\Анна\PycharmProjects\python-training\fixture" />
       <recent name="C:\Users\Анна\PycharmProjects\python-training\test" />
       <recent name="C:\Users\Анна\PycharmProjects\python-training\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_create_contact.py">
+  <component name="RunManager" selected="Python tests.pytest in test_add_group2.py">
     <configuration name="pytest in C:/Users/Анна/PycharmProjects/python-training/test_create_contact1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,8 +148,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_create_contact.py" />
         <item itemvalue="Python tests.pytest in test_add_group2.py" />
+        <item itemvalue="Python tests.pytest in test_create_contact.py" />
         <item itemvalue="Python tests.test_add_group.py" />
         <item itemvalue="Python tests.pytest in C:/Users/Анна/PycharmProjects/python-training/test_create_contact1.py" />
         <item itemvalue="Python tests.pytest in test_add_group1.py" />
@@ -352,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595530235968</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="созданы помощники для обоих тестов">
+      <created>1595531095877</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1595531095877</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -392,7 +396,8 @@
     <MESSAGE value="созданы пакеты для разных зон ответст-ти для контакта" />
     <MESSAGE value="опять создан новый файл взамен забарахлившего" />
     <MESSAGE value="добавлен файд group" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлен файд group" />
+    <MESSAGE value="созданы помощники для обоих тестов" />
+    <option name="LAST_COMMIT_MESSAGE" value="созданы помощники для обоих тестов" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" key="#Unittests_in_test_add_group.py" timestamp="1595513425580">
@@ -419,22 +424,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="110" y="120" width="1146" height="488" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1595084933112" />
-    <state width="1345" height="54" key="GridCell.Tab.0.bottom" timestamp="1595530248624">
+    <state width="1345" height="152" key="GridCell.Tab.0.bottom" timestamp="1595532776790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="54" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595530248624" />
-    <state width="1345" height="54" key="GridCell.Tab.0.center" timestamp="1595530248624">
+    <state width="1345" height="152" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595532776790" />
+    <state width="1345" height="152" key="GridCell.Tab.0.center" timestamp="1595532776790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="54" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595530248624" />
-    <state width="1345" height="54" key="GridCell.Tab.0.left" timestamp="1595530248624">
+    <state width="1345" height="152" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595532776790" />
+    <state width="1345" height="152" key="GridCell.Tab.0.left" timestamp="1595532776790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="54" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595530248624" />
-    <state width="1345" height="54" key="GridCell.Tab.0.right" timestamp="1595530248624">
+    <state width="1345" height="152" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595532776790" />
+    <state width="1345" height="152" key="GridCell.Tab.0.right" timestamp="1595532776790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="54" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595530248624" />
+    <state width="1345" height="152" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595532776790" />
     <state width="1345" height="54" key="GridCell.Tab.1.bottom" timestamp="1595530248625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -455,10 +460,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595515500565" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595526089464">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595531109038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595526089464" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595531109038" />
     <state x="229" y="158" key="refactoring.ChangeSignatureDialog" timestamp="1595356218707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
