@@ -19,12 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="фикстура для Контакта">
+    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="навела красоту в названиях и удалила лишние">
+      <change afterPath="$PROJECT_DIR$/fixture/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application1.py" beforeDir="false" afterPath="$PROJECT_DIR$/application1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Create_Contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Create_Contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_group1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Create_Contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_create_contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application1.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/contact.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_group1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in Test_Create_Contact.py">
+  <component name="RunManager" selected="Python tests.pytest in test_create_contact.py">
     <configuration name="pytest in C:/Users/Анна/PycharmProjects/python-training/test_create_contact1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,7 +76,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in Test_Create_Contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +88,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_Create_Contact.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_add_group1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_create_contact.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +104,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_group1.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_create_contact.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -113,21 +119,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_group.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python tests.test_add_group.py" />
-      <item itemvalue="Python tests.pytest in Test_Create_Contact.py" />
-      <item itemvalue="Python tests.pytest in test_add_group1.py" />
       <item itemvalue="Python tests.pytest in C:/Users/Анна/PycharmProjects/python-training/test_create_contact1.py" />
+      <item itemvalue="Python tests.pytest in test_add_group.py" />
+      <item itemvalue="Python tests.pytest in test_create_contact.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in Test_Create_Contact.py" />
+        <item itemvalue="Python tests.pytest in test_create_contact.py" />
         <item itemvalue="Python tests.pytest in C:/Users/Анна/PycharmProjects/python-training/test_create_contact1.py" />
-        <item itemvalue="Python tests.pytest in test_add_group1.py" />
+        <item itemvalue="Python tests.pytest in test_add_group.py" />
         <item itemvalue="Python tests.test_add_group.py" />
       </list>
     </recent_temporary>
@@ -283,7 +289,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595524914703</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="исправлена ошибка в тесте">
+      <created>1595525658360</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1595525658360</updated>
+    </task>
+    <task id="LOCAL-00022" summary="навела красоту в названиях и удалила лишние">
+      <created>1595526080872</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1595526080872</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,7 +337,9 @@
     <MESSAGE value="файл с ошибкой" />
     <MESSAGE value="на всякий случай все" />
     <MESSAGE value="фикстура для Контакта" />
-    <option name="LAST_COMMIT_MESSAGE" value="фикстура для Контакта" />
+    <MESSAGE value="исправлена ошибка в тесте" />
+    <MESSAGE value="навела красоту в названиях и удалила лишние" />
+    <option name="LAST_COMMIT_MESSAGE" value="навела красоту в названиях и удалила лишние" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" key="#Unittests_in_test_add_group.py" timestamp="1595513425580">
@@ -380,10 +402,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595515500565" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595524943051">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595526089464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595524943051" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595526089464" />
     <state x="229" y="158" key="refactoring.ChangeSignatureDialog" timestamp="1595356218707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
