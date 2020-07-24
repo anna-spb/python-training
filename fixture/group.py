@@ -27,10 +27,19 @@ class GroupHelper:
         wd.find_element_by_name("group_footer").send_keys(group.footer)
         # submit group creation
         wd.find_element_by_name("submit").click()
-        self.Return_to_group_page()
+        self.return_to_group_page()
+
+    def delete_first_group(self):
+        wd = self.app.wd
+        self.open_group_page()
+        #select group
+        wd.find_element_by_name("selected[]").click()
+        # submit deletion
+        wd.find_element_by_name("delete").click()
+        self.return_to_group_page()
 
 
-    def Return_to_group_page(self):
+    def return_to_group_page(self):
         wd = self.app.wd
         wd.find_element_by_link_text("groups").click()
 
