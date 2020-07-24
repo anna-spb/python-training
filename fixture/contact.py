@@ -109,5 +109,6 @@ class ContactHelper:
         wd.find_element_by_name("firstname").clear()
         wd.find_element_by_name("firstname").send_keys("aaa")
         # submit update
-        wd.find_element_by_xpath("(//input[@name='update'])[2]").click()
+        #wd.find_element_by_xpath("(//input[@name='update'])[2]").click()
+        wd.find_element_by_name("update").click()
         self.return_to_home_page()
