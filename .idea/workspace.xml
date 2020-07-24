@@ -19,10 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="создан тест изменение контакта">
-      <change afterPath="$PROJECT_DIR$/test/test_change_group.py" afterDir="false" />
+    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="создан тест изменение группы">
+      <change afterPath="$PROJECT_DIR$/test/test_add_group_new.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_group2.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +62,8 @@
       <recent name="C:\Users\Анна\PycharmProjects\python-training\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_change_contact.py">
-    <configuration name="pytest for test_add_group2.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_add_group_new.py">
+    <configuration name="pytest for test_add_group_new.test_add_empty_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +75,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_group2.test_add_group&quot;" />
+      <option name="_new_target" value="&quot;test_add_group_new.test_add_empty_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_change_contact.test_change_first_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_add_group_new.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +91,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_change_contact.test_change_first_contact&quot;" />
+      <option name="_new_target" value="&quot;test_add_group_new.test_add_group&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_change_group.test_change_first_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +107,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_change_group.test_change_first_group&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_add_group2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_add_group_new.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,7 +123,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group2.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group_new.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -141,19 +144,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in test_add_group2.py" />
-      <item itemvalue="Python tests.pytest for test_add_group2.test_add_group" />
-      <item itemvalue="Python tests.pytest for test_change_contact.test_change_first_contact" />
-      <item itemvalue="Python tests.pytest for test_change_group.test_change_first_group" />
       <item itemvalue="Python tests.pytest in test_change_contact.py" />
+      <item itemvalue="Python tests.pytest in test_add_group_new.py" />
+      <item itemvalue="Python tests.pytest for test_add_group_new.test_add_group" />
+      <item itemvalue="Python tests.pytest for test_add_group_new.test_add_empty_group" />
+      <item itemvalue="Python tests.pytest in test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_add_group_new.py" />
+        <item itemvalue="Python tests.pytest in test" />
+        <item itemvalue="Python tests.pytest for test_add_group_new.test_add_empty_group" />
+        <item itemvalue="Python tests.pytest for test_add_group_new.test_add_group" />
         <item itemvalue="Python tests.pytest in test_change_contact.py" />
-        <item itemvalue="Python tests.pytest for test_change_group.test_change_first_group" />
-        <item itemvalue="Python tests.pytest for test_change_contact.test_change_first_contact" />
-        <item itemvalue="Python tests.pytest for test_add_group2.test_add_group" />
-        <item itemvalue="Python tests.pytest in test_add_group2.py" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595613534097</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="создан тест изменение группы">
+      <created>1595614994366</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1595614994366</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +418,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="создан метод с пустыми параметрами" />
     <MESSAGE value="выделены вспомогательные методы и классы" />
     <MESSAGE value="создан новый файл Test_Create_Contact" />
     <MESSAGE value="созданы допметоды в CREATE CONTACT" />
@@ -433,7 +442,8 @@
     <MESSAGE value="создан тест Удаление группы" />
     <MESSAGE value="создан тест Удаление контакта" />
     <MESSAGE value="создан тест изменение контакта" />
-    <option name="LAST_COMMIT_MESSAGE" value="создан тест изменение контакта" />
+    <MESSAGE value="создан тест изменение группы" />
+    <option name="LAST_COMMIT_MESSAGE" value="создан тест изменение группы" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" key="#Unittests_in_test_add_group.py" timestamp="1595513425580">
@@ -460,22 +470,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="110" y="120" width="1146" height="488" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1595084933112" />
-    <state width="1345" height="180" key="GridCell.Tab.0.bottom" timestamp="1595614693438">
+    <state width="1345" height="79" key="GridCell.Tab.0.bottom" timestamp="1595616398836">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595614693438" />
-    <state width="1345" height="180" key="GridCell.Tab.0.center" timestamp="1595614693438">
+    <state width="1345" height="79" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595616398836" />
+    <state width="1345" height="79" key="GridCell.Tab.0.center" timestamp="1595616398836">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595614693438" />
-    <state width="1345" height="180" key="GridCell.Tab.0.left" timestamp="1595614693438">
+    <state width="1345" height="79" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595616398836" />
+    <state width="1345" height="79" key="GridCell.Tab.0.left" timestamp="1595616398836">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595614693438" />
-    <state width="1345" height="180" key="GridCell.Tab.0.right" timestamp="1595614693438">
+    <state width="1345" height="79" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595616398836" />
+    <state width="1345" height="79" key="GridCell.Tab.0.right" timestamp="1595616398836">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595614693438" />
+    <state width="1345" height="79" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595616398836" />
     <state width="1345" height="54" key="GridCell.Tab.1.bottom" timestamp="1595530248625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
