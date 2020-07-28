@@ -7,10 +7,6 @@ from fixture.contact import ContactHelper
 class Application:
 
     def __init__(self):
-        """
-
-        :rtype: object
-        """
         self.wd = webdriver.Firefox()
         self.wd.implicitly_wait(30)
         self.session = SessionHelper(self)
