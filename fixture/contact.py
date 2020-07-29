@@ -15,6 +15,13 @@ class ContactHelper:
         # init new contact
         wd.find_element_by_link_text("add new").click()
         # fill contact form
+        self.fill_contact_form(group)
+        # submit contact creation
+        wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
+        self.return_to_home_page()
+
+    def fill_contact_form(self, group):
+        wd = self.app.wd
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").clear()
         wd.find_element_by_name("firstname").send_keys(group.firstname)
@@ -87,9 +94,6 @@ class ContactHelper:
         wd.find_element_by_name("notes").click()
         wd.find_element_by_name("notes").clear()
         wd.find_element_by_name("notes").send_keys(group.notes)
-        # submit contact creation
-        wd.find_element_by_xpath("(//input[@name='submit'])[2]").click()
-        self.return_to_home_page()
 
     def delete_first_contact(self):
         wd = self.app.wd
@@ -100,15 +104,11 @@ class ContactHelper:
         wd.switch_to_alert().accept()
         self.return_to_home_page()
 
-    def change_first_contact(self):
+    def change_first_contact(self, group):
         wd = self.app.wd
         # select edit contact
         wd.find_element_by_xpath("//img[@alt='Edit']").click()
-        # edit firstname
-        wd.find_element_by_name("firstname").click()
-        wd.find_element_by_name("firstname").clear()
-        wd.find_element_by_name("firstname").send_keys("aaa")
+        self.fill_contact_form(group)
         # submit update
-        #wd.find_element_by_xpath("(//input[@name='update'])[2]").click()
         wd.find_element_by_name("update").click()
         self.return_to_home_page()

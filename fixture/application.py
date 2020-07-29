@@ -3,7 +3,7 @@ from selenium import webdriver
 from fixture.session import SessionHelper
 from fixture.group import GroupHelper
 from fixture.contact import ContactHelper
-from fixture.group_fill import GroupFillHelper
+
 
 class Application:
 
@@ -12,7 +12,6 @@ class Application:
         self.wd.implicitly_wait(30)
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
-        self.group_fill = GroupFillHelper(self)
         self.contact = ContactHelper(self)
 
 

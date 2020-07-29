@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="исправлена ошибка логаута">
-      <change afterPath="$PROJECT_DIR$/fixture/group_fill.py" afterDir="false" />
+    <list default="true" id="00723559-2e70-47d8-93fb-949f7484481a" name="Default Changelist" comment="Выделен метод заполнения форм">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_group_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/group_fill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_change_contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_change_contact.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_change_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_change_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,7 @@
       <recent name="C:\Users\Анна\PycharmProjects\python-training\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_group_new.test_add_group">
+  <component name="RunManager" selected="Python tests.pytest for test_change_contact.test_change_first_contact">
     <configuration name="pytest for test_add_group_new.test_add_empty_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,6 +93,22 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_add_group_new.test_add_group&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_change_contact.test_change_first_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python-training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_change_contact.test_change_first_contact&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -127,36 +144,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_change_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python-training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_change_group.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python tests.pytest in test_add_group_new.py" />
       <item itemvalue="Python tests.pytest for test_add_group_new.test_add_group" />
       <item itemvalue="Python tests.pytest for test_add_group_new.test_add_empty_group" />
-      <item itemvalue="Python tests.pytest in test_change_group.py" />
       <item itemvalue="Python tests.pytest for test_change_group.test_change_first_group" />
+      <item itemvalue="Python tests.pytest for test_change_contact.test_change_first_contact" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_add_group_new.test_add_group" />
+        <item itemvalue="Python tests.pytest for test_change_contact.test_change_first_contact" />
         <item itemvalue="Python tests.pytest for test_change_group.test_change_first_group" />
+        <item itemvalue="Python tests.pytest for test_add_group_new.test_add_group" />
         <item itemvalue="Python tests.pytest for test_add_group_new.test_add_empty_group" />
         <item itemvalue="Python tests.pytest in test_add_group_new.py" />
-        <item itemvalue="Python tests.pytest in test_change_group.py" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595959462854</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Выделен метод заполнения форм">
+      <created>1596049488305</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1596049488305</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -425,7 +433,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="создан новый файл Test_Create_Contact" />
     <MESSAGE value="созданы допметоды в CREATE CONTACT" />
     <MESSAGE value="переданы параметры в методы CREATE CONTACT" />
     <MESSAGE value="создан шаблон с параметрами CREATE CONTACT" />
@@ -450,7 +457,8 @@
     <MESSAGE value="создан тест изменение контакта" />
     <MESSAGE value="создан тест изменение группы" />
     <MESSAGE value="исправлена ошибка логаута" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправлена ошибка логаута" />
+    <MESSAGE value="Выделен метод заполнения форм" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выделен метод заполнения форм" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Intentions" timestamp="1596048070408">
@@ -465,6 +473,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1595605924081" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596051686161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596051686161" />
     <state x="484" y="270" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog" timestamp="1595349836899">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -481,22 +493,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="110" y="120" width="1146" height="488" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1595084933112" />
-    <state width="1345" height="40" key="GridCell.Tab.0.bottom" timestamp="1596049371257">
+    <state width="1345" height="145" key="GridCell.Tab.0.bottom" timestamp="1596053205301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="40" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596049371257" />
-    <state width="1345" height="40" key="GridCell.Tab.0.center" timestamp="1596049371257">
+    <state width="1345" height="145" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596053205301" />
+    <state width="1345" height="145" key="GridCell.Tab.0.center" timestamp="1596053205301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="40" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596049371257" />
-    <state width="1345" height="40" key="GridCell.Tab.0.left" timestamp="1596049371257">
+    <state width="1345" height="145" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596053205301" />
+    <state width="1345" height="145" key="GridCell.Tab.0.left" timestamp="1596053205301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="40" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596049371257" />
-    <state width="1345" height="40" key="GridCell.Tab.0.right" timestamp="1596049371257">
+    <state width="1345" height="145" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596053205301" />
+    <state width="1345" height="145" key="GridCell.Tab.0.right" timestamp="1596053205301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="40" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596049371257" />
+    <state width="1345" height="145" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596053205301" />
     <state width="1345" height="54" key="GridCell.Tab.1.bottom" timestamp="1595530248625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -517,14 +529,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595515500565" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595959626345">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596049498881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595959626345" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596049498881" />
     <state x="293" y="52" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595613697432">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="293" y="52" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1595613697432" />
+    <state x="389" y="152" key="git4idea.merge.GitPullDialog" timestamp="1596051773463">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1596051773463" />
     <state x="229" y="158" key="refactoring.ChangeSignatureDialog" timestamp="1595356218707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
