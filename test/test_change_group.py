@@ -8,4 +8,3 @@ def test_change_first_group(app):
 
 def test_modify_first_group_name(app):
     app.group.modify_first_group(Group(name="New name"))
-
