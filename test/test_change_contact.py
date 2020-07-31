@@ -2,6 +2,8 @@
 from model.contact import Group
 
 def test_change_first_contact(app):
+    if app.contact.count() == 0:
+        app.contact.create(Group(firstname="test"))
     app.contact.change_first_contact(Group(firstname=" ", middlename="     ", lastname="ddddd", nickname="ddddd",
                              title="dddd", company= "dddd", address="ggg", home="hhhhhh", mobile="jjjj", work="kkkk",
                              fax="llllll", email="aass@hhj.ru", email2="   .com", email3="rrrr@hh.bu",
