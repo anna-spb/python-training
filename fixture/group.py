@@ -22,7 +22,6 @@ class GroupHelper:
 
     def select_first_group(self):
         wd = self.app.wd
-        # select group
         wd.find_element_by_name("selected[]").click()
 
 
